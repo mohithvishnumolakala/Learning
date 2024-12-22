@@ -1,8 +1,17 @@
 ﻿using Learning.Console;
+using Learning.Console.Arrays;
 
 internal class Program
 {
     private static void Main(string[] args)
+    {
+
+        Loops();
+        //ArraysIntro.PrintArray();
+        //ArraysIntro.PrintString();
+
+    }
+    static void Loops()
     {
         Forloop Fobj = new Forloop();
         //Fobj.ForLoopMethod();
@@ -13,10 +22,8 @@ internal class Program
         //Fobj.Table();
         //Fobj.Factorial();
         //Fobj.SumFactorial();
-
-
-
-
+        //Fobj.Fibbinoci();
+        Fobj.PrimeNumber();
 
         Whileloop Wobj = new Whileloop();
         //Wobj.WhileLoopMethod();
@@ -41,13 +48,12 @@ internal class Program
         //Patterns.num5();
         //Patterns.num6();
         //Patterns.num7();
-
-
+        //Patterns.RightTriangle();
+        // Patterns.EqualTriangle();
 
 
         //DoWhileloop.DoWhileLoop();
         // DoWhileloop.DoWhile();
-
-
     }
+
 }

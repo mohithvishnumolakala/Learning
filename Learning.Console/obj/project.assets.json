@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\C-Sharp Practise\\Learning\\Learning.Console\\Learning.Console.csproj",
+      "projectUniqueName": "D:\\C-Sharp Practise\\Learning_V1\\Learning\\Learning.Console\\Learning.Console.csproj",
       "projectName": "Learning.Console",
-      "projectPath": "D:\\C-Sharp Practise\\Learning\\Learning.Console\\Learning.Console.csproj",
+      "projectPath": "D:\\C-Sharp Practise\\Learning_V1\\Learning\\Learning.Console\\Learning.Console.csproj",
       "packagesPath": "C:\\Users\\senas\\.nuget\\packages\\",
-      "outputPath": "D:\\C-Sharp Practise\\Learning\\Learning.Console\\obj\\",
+      "outputPath": "D:\\C-Sharp Practise\\Learning_V1\\Learning\\Learning.Console\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

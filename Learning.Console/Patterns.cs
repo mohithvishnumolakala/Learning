@@ -55,7 +55,6 @@ namespace Learning.Console
                     Console.Write("*");
                 }
                 Console.WriteLine();
-
             }
         }
         public static void num1()
@@ -75,7 +74,7 @@ namespace Learning.Console
             {
                 for (int j = 1; j <= 3; j++)
                 {
-                    
+
                     Console.Write(k);
                     k++;
                 }
@@ -84,11 +83,11 @@ namespace Learning.Console
             }
 
         }
-        public static void num3() 
+        public static void num3()
         {
-            for (int i = 1; i <= 3; i++) 
+            for (int i = 1; i <= 3; i++)
             {
-                for (int j = 1; j <= 3; j++) 
+                for (int j = 1; j <= 3; j++)
                 {
                     Console.Write(i);
                 }
@@ -118,7 +117,7 @@ namespace Learning.Console
                 for (int j = 3; j >= 1; j--)
                 {
                     Console.Write(j);
-                    
+
                 }
                 Console.WriteLine();
             }
@@ -131,7 +130,7 @@ namespace Learning.Console
                 for (int j = 1; j <= 3; j++)
                 {
                     Console.Write(i);
-                   
+
                 }
                 Console.WriteLine();
             }
@@ -139,18 +138,62 @@ namespace Learning.Console
         }
         public static void num7()
         {
-            
+
             for (int i = 1; i <= 3; i++)
             {
                 for (int j = 3; j > 0; j--)
                 {
                     Console.Write(j);
-                    
+
                 }
                 Console.WriteLine();
             }
 
         }
-    }
+        public static void RightTriangle()
+        {
+            {
+                Console.WriteLine("enter the no.of rows");
+                int rows = int.Parse(Console.ReadLine());
+                for (int i = 1; i <= rows; i++)
+                {
+                    for (int j = 1; j <= rows - i; j++)
+                    {
+                        Console.Write(" ");
+                    }
+                    for (int k = 1; k <= i; k++)
+                    {
+                        Console.Write("*");
+                    }
 
+                    Console.WriteLine();
+                }
+            }
+        }
+        public static void EqualTriangle()
+        {
+            {
+                Console.WriteLine("enter the no.of rows");
+                int rows = int.Parse(Console.ReadLine());
+                for (int i = 1; i <= rows; i++)
+                {
+                    for (int j = 1; j <= rows - i; j++)
+                    {
+                        Console.Write("_");
+                    }
+                    for (int k = 1; k <= 2 * i - 1; k++)
+                    {
+                        Console.Write("*");
+                    }
+                    for (int j = 1; j <= rows - i; j++)
+                    {
+                        Console.Write("_");
+                    }
+
+                    Console.WriteLine();
+                }
+            }
+        }
+    }
 }
+

@@ -1,7 +1,6 @@
 ﻿
 public class Forloop
 {
-
     public void ForLoopMethod()
     {
         Console.WriteLine("forloop");
@@ -76,7 +75,46 @@ public class Forloop
         }
         Console.WriteLine($"factorial of {num} is {result}");
     }
+    public void Fibbinoci()
+    {
+        Console.WriteLine("enter the terms");
+        int terms = int.Parse(Console.ReadLine());
+        int first = 0;
+        int second = 1;
+        Console.Write(first + " " + second + " ");
+        for (int i = 3; i <= terms; i++)
+        {
+            int third = first + second;
+            first = second;
+            second = third;
+            Console.Write(third + " ");
+        }
 
+    }
+    public void PrimeNumber()
+    {
 
+        bool isPrime = true;
+        for (int start = 2; start < 10; start++)
+        {
+            isPrime = true;
+            for (int i = 2; i <= start - 1; i++)
+            {
+                if (start % i == 0)
+                {
+                    isPrime = false;
+                    break;
+                }
 
+            }
+            if (isPrime)
+            {
+                Console.WriteLine("prime" + start);
+            }
+            else
+            {
+                Console.WriteLine("Not" + start);
+            }
+        }
+    }
 }
