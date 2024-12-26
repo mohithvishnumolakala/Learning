@@ -1,16 +1,78 @@
 ﻿using Learning.Console;
 using Learning.Console.Arrays;
+using Learning.Console.OOPS;
+using Learning.Console.Strings;
+
+
 
 internal class Program
 {
     private static void Main(string[] args)
     {
 
-        Loops();
-        //ArraysIntro.PrintArray();
-        //ArraysIntro.PrintString();
+        Strings obj = new Strings();
+        //obj.Example();
+        //CompileTimeVsRuntime();
+        // ArraysIntro obj = new ArraysIntro();
+        //obj.Example2();
+        //obj.SumOfElements();
+        //obj.CountOccur();
+        //obj.Search();
+        //obj.OccuranceOfLetter();
+        obj.VowelsCount();
+    }
+
+    static void CompileTimeVsRuntime()
+    {
+        int x = 0; int y = 10;
+        //Compile time error
+        //int x=0  // syntax error 
+
+        //runtime error
+        //int s = 10 / 0; // divide by 0  
+        //arr[index out of range] // index of range exception
+
+        //var sum = Console.ReadLine();
+        MethodA(1, "2");
+        MethodA("a", 1);
+        //Compile ytime polymorphism --> Which method tocall is decided at compile time;
+
+        Animal obj = new Animal();
+        obj.sound();
+
+        Animal c = new Cat();
+        c.sound();  // which method to call is decided at run time.
+
 
     }
+
+    static void MethodA(int a, string b)
+    {
+        Console.WriteLine("No Params");
+    }
+
+    static void MethodA(string a, int b)
+    {
+        Console.WriteLine("one param a");
+    }
+    static void MethodA(bool a, int b)
+    {
+        Console.WriteLine("one param a");
+    }
+
+    static void inheritanceDemo()
+    {
+        Animal obj = new Animal();
+        obj.sound();
+
+        Cat c = new Cat();
+        c.sound();
+        c.sample();
+
+        Dog d = new Dog();
+        d.sound();
+    }
+
     static void Loops()
     {
         Forloop Fobj = new Forloop();
