@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample</title>
+</head>
+<body>
+    <p id="text">dascdasdca</p>
+    <div>
+        <button id="sub" style="color:rgb(226, 33, 129)"     value="1"     onclick="col()" >Submit</button>
+        <button id="can" style="color: red;" onclick="can()">Cancel</button>
+    </div>
+    <script>
+        function col(){
+            
+            console.log("you click submit button")
+            document.getElementById("text").innerHTML="you clicked submit button"
+            document.getElementById("text").style.color=document.getElementById("sub").style.color;
+        
+        }
+        function can(){
+            console.log("you clicked the green button")
+            document.getElementById("text").innerHTML="you clicked cancel button"
+            document.getElementById("text").style.color="red";
+        }
+        
+        
+    </script>
+    
+</body>
+</html>

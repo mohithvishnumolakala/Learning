@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+<div>
+    <input id="num1" type="number" placeholder="value 1" >
+    <input id="num2" type="number" placeholder="value 2">
+    <p id="result">result</p>
+    <button onclick="cal('add')">Add</button>
+    <button onclick="cal('subt')">subtract</button>
+    <button onclick="cal('mul')">Multiply</button>
+    <button onclick="cal('div')">Division</button>
+</div> 
+<script>
+   function cal(val){
+    let a=parseInt(document.getElementById("num1").value);
+    let b=parseInt(document.getElementById("num2").value);
+    let res;
+    if(val=="add")
+    {
+        res=a+b;
+    }
+    else if(val=="subt"){
+        res=a-b;
+    }
+    else if(val=="mul"){
+        res=a*b;
+    }
+    else{
+        res=a/b;
+    }
+    document.getElementById("result").innerHTML=`${a} ${val} ${b}= ${res}`;
+   }
+
+</script>
+</body>
+</html>

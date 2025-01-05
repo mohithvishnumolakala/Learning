@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <select id="cars" onchange="col()">
+        <option>moto</option>
+        <option selected>volvo </option>
+        <option>bravo</option>
+        <option>card</option>
+
+    </select>
+    <p id="mess">ss</p>
+    <script>
+        function col(){
+            let a=document.getElementById("cars").value;
+            <!-- console.log("you selected"+ a) -->
+            document.getElementById("mess").innerHTML="you selected "+a;
+            
+        }
+    </script>
+</body>
+</html>

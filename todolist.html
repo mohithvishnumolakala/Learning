@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="todo" type="text" >
+    <button id ="add" onclick="display()">Submit</button>
+    <p id="order"></p>
+    <script>
+        arr=[];
+
+        function display(){
+          let a=  document.getElementById("todo").value;
+          arr.push(a);
+          let text='';
+          for(let i=0;i<arr.length;i++){
+            text = text + (i+1) + arr[i] + ` <button id="btn" onclick="remove(${i})">Remove</button><br>` ;
+          }
+          document.getElementById("order").innerHTML=text;
+        }
+        function remove(val){
+          arr.splice(val,1);
+          let text='';
+          for(let i=0;i<arr.length;i++){
+            text += (i+1)+arr[i] +` <button id=btn onclick=remove(${i})>Remove</button><br>` ;
+          }
+          document.getElementById("order").innerHTML=text;
+        }
+    </script>
+</body>
+</html>
