@@ -9,10 +9,8 @@ namespace Learning.Console
 
     public class Patterns
     {
-
-
         public static void SquarePattern()
-        {
+        {   
             Console.WriteLine("enter sqare dimensions");
             int input = int.Parse(Console.ReadLine());
 
@@ -152,23 +150,23 @@ namespace Learning.Console
         }
         public static void RightTriangle()
         {
-            {
-                Console.WriteLine("enter the no.of rows");
-                int rows = int.Parse(Console.ReadLine());
-                for (int i = 1; i <= rows; i++)
-                {
-                    for (int j = 1; j <= rows - i; j++)
-                    {
-                        Console.Write(" ");
-                    }
-                    for (int k = 1; k <= i; k++)
-                    {
-                        Console.Write("*");
-                    }
 
-                    Console.WriteLine();
+            Console.WriteLine("enter the no.of rows");
+            int rows = int.Parse(Console.ReadLine());
+            for (int i = 1; i <= rows; i++)
+            {
+                for (int j = 1; j <= rows - i; j++)
+                {
+                    Console.Write(" ");
                 }
+                for (int k = 1; k <= i; k++)
+                {
+                    Console.Write("*");
+                }
+
+                Console.WriteLine();
             }
+
         }
         public static void EqualTriangle()
         {
@@ -189,11 +187,22 @@ namespace Learning.Console
                     {
                         Console.Write("_");
                     }
-
                     Console.WriteLine();
                 }
             }
         }
+        public static void LeapYear()
+        {
+            Console.WriteLine("Enter Year");
+            int year=int.Parse(Console.ReadLine());
+            if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0)
+            {
+                Console.WriteLine("This is Leap Year " + year);
+            }
+            else { Console.WriteLine("This is Not Leap Year "+year); }
+
+        }
+
     }
 }
 

@@ -7,7 +7,7 @@ public class Whileloop
         Console.WriteLine("Whileloop");
     }
     public void Print1to10()
-    {
+    { 
         Console.WriteLine("1-10");
         int i = 1;
         while (i <= 10)
@@ -92,8 +92,8 @@ public class Whileloop
         {
             int count = 0;
             Console.WriteLine("enter number");
-            string num = Console.ReadLine();
-            int input = int.Parse(num);
+            int input = int.Parse(Console.ReadLine());
+            int num = input;
             while (input != 0)
             {
                 count = count + 1;
@@ -104,6 +104,7 @@ public class Whileloop
         }
 
     }
+
 
     public void SumofDigits()
     {

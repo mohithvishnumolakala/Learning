@@ -8,12 +8,14 @@ public class Forloop
     public void Print1to10()
     {
         Console.WriteLine("1-10");
+        
         for (int i = 1; i <= 10; i++)
         {
             Console.Write(i + " ");
         }
-        Console.WriteLine();
     }
+    
+    
     public void Print10to1()
     {
         Console.WriteLine("10-1");
@@ -29,12 +31,12 @@ public class Forloop
         {
             if (i % 2 == 0)
             { Console.Write(i + " "); }
-
+            
         }
     }
     public void PrintOdd()
     {
-        for (int i = 1; i <= 10; i++)
+        for (int i = 1; i <= 10; i++) 
         {
             if (i % 2 != 0)
             { Console.Write(i + " "); }
@@ -52,13 +54,11 @@ public class Forloop
     public void Factorial()
     {
         Console.WriteLine("enter number");
-        string input = Console.ReadLine();
-        int num = int.Parse(input);
+        int num=int.Parse( Console.ReadLine() );
         int result = 1;
         for (int i = 1; i <= num; i++)
-        {
-            result = result * i;
-
+        { 
+            result = result * i; 
         }
         Console.WriteLine($"factorial of {num} is {result}");
     }
@@ -71,11 +71,10 @@ public class Forloop
         for (int i = 1; i <= num; i++)
         {
             result += i;
-
         }
         Console.WriteLine($"factorial of {num} is {result}");
     }
-    public void Fibbinoci()
+    public void Fibbinoci()   
     {
         Console.WriteLine("enter the terms");
         int terms = int.Parse(Console.ReadLine());
@@ -93,27 +92,25 @@ public class Forloop
     }
     public void PrimeNumber()
     {
-
-        bool isPrime = true;
-        for (int start = 2; start < 10; start++)
+        int count = 0;
+        for (int num = 2; num <=20; num++)
         {
-            isPrime = true;
-            for (int i = 2; i <= start - 1; i++)
+            count = 0;
+            for (int i = 2; i <num; i++)
             {
-                if (start % i == 0)
+                if (num % i == 0)
                 {
-                    isPrime = false;
-                    break;
-                }
+                    count++;
 
+                } 
             }
-            if (isPrime)
+            if (count == 0)
             {
-                Console.WriteLine("prime" + start);
+                Console.WriteLine("prime" + num);
             }
-            else
+            else 
             {
-                Console.WriteLine("Not" + start);
+                Console.WriteLine("Not" + num);
             }
         }
     }

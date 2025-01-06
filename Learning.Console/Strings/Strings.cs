@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Learning.Console.Strings
 {
+
     internal class Strings
     {
         public void Example()
@@ -39,7 +40,6 @@ namespace Learning.Console.Strings
             System.Console.WriteLine("enter string");
             string name = System.Console.ReadLine();
             int count = 0;
-
             for (int i = 0; i < name.Length; i++)
             {
                 if (name[i].ToString().ToLower() == "a" ||
@@ -49,11 +49,9 @@ namespace Learning.Console.Strings
                    name[i].ToString().ToLower() == "u")
                 {
                     count++;
-
                 }
             }
             System.Console.WriteLine(count);
         }
-
     }
 }
