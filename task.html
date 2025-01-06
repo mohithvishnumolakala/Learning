@@ -6,35 +6,58 @@
     <title>Document</title>
   </head>
   <style>
-
     .mid-div {
       text-align: center;
     }
 
+    body{
+      font-family: monospace;
+    }
+
     .container {
       border: 2px solid black;
-      margin-left: 200px;
-      margin-right: 200px;
+      border-radius: 25px;
+      margin: 0px 230px;
     }
+
     .btn {
+      margin-top: 30px;
       border-radius: 15px;
       background-color: green;
       color: white;
       padding:5px 20px;
+      width: 140px;
+    }
+
+    .mid-div a{
+      font-size: 125%;
+      padding-left: 30px;
+      text-decoration: none;
+    }
+
+    .exit{
+      border-radius: 25px;
+      background-color: green;
+      color: white;
+      height: 40px;
+      width: 70px;
+      margin-top: 10px;
     }
 
     .botton-btn{
-      background-color:#fafafa;
+      background-color:gray;
       border-radius: 13px;
       color:black;
       align-items: center;
       padding:5px 50px;
+      font-family: bolder;
+      font-size:medium;
     }
     
     .sections {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        gap: 15px;
+        gap: 3px;
         margin-top: 20px;
     }
     
@@ -44,10 +67,23 @@
         padding-top: 0px;
         text-align: left;
     }
+
+    .siders{
+      margin:0px;
+      font-size: 1.2em;
+      font-family: monospace;
+    }
+
+    .inline{
+      display: flex;
+      justify-content: space-between;
+      padding:5px 10px;
+    }
     
     section h3 {
-        font-size: 1.2em;
-        color: #333;
+        font-size: 1.8em;
+        font-weight: bolder;
+        color: #000000;
         margin-bottom: 3px;
         margin-top: 0px;
         text-align: center;
@@ -55,28 +91,122 @@
     
     section p {
         font-size: 0.9em;
-        color: #555;
+        color: #000000;
         margin-top: 1px;
+        margin-bottom: 0px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .dots{
+      height:45px;
+      width: 85px;
+      padding-left: 15px;
     }
 
     .mid{
       text-align: center;
     }
-   
-    
-  </style>
-  <body>
-    <div class="container">
-      <div class="mid-div">
-        <h3>Welcome to My Practise Page</h3>
-        <h2>Welcome This Page</h2>
 
-        <h3>Begining Prctise web design</h3>
-        <h4>hloiushdunoiasdndcascascdascascascnsdc</h4>
-        <h3>begining terms and content</h3>
+    #bar{
+      border-radius: 20px;
+      height:30px;
+      margin-top: 10px;
+    }
+    
+    .header{
+      display:flex;
+      gap:10px;
+      border-bottom: 2px solid black;
+    }
+
+    .header-left{
+      display: flex;
+      gap:35px;
+      margin-left:38%;
+    }
+
+    .mid-div h1{
+      margin: 0px;
+      font-size: 315%;
+    }
+
+    .mid-div h2{
+      margin: 0px;
+      font-size: 370%;
+      padding-left: 30px;
+    }
+
+    .mid-div h3{
+      font-size: 200%;
+      padding-left: 10px;
+      margin: 0px;
+    }
+
+    .mid-div h4{
+      font-size: 130%;
+      margin: 0px;
+      padding-left: 18px;
+    }
+
+    #last{
+      font-size: 180%;
+      padding-left: 30px;
+    }
+
+    #bottom-btn{
+      background-color: green;
+      color: #fafafa;
+    }
+
+    .floatbox{
+      display: flex;
+      position:absolute;
+      height: 120px;
+      width: 170px;
+      padding-left: 40px;
+    }
+
+    .cloud{
+      display: flex;
+      position:absolute;
+      height: 120px;
+      width: 170px;
+      padding-left: 10px;
+    }
+  </style>
+
+  <body>
+    <div class="inline">
+      <h2 class="siders">Your Your Practise Page</h2>
+      <h2 class="siders">Your Your Practise Page</h2>
+    </div>
+
+    <div class="container">
+        <div class="header">
+          <img src="Screenshot 2025-01-05 155858.png" class="dots">
+          <input id="bar"  type="text" placeholder="search">
+          
+          <div class="header-left">
+            <h2>web</h2>
+            <h2>page</h2>
+            <button class="exit">exit</button>
+          </div>
+        </div>
+    
+
+      <div class="mid-div">
+        <h1>Welcome to My Practise Page</h1>
+        <img src="Screenshot 2025-01-05 175651.png" class="cloud">
+        <h2>Welcome This Page</h2><br>
+
+        <h3>Begining Practise web design</h3>
+        <h4>hloiushdunoiasdndcdczascascdascascascnsdc</h4>
+        <h3 id="last">begining terms and content</h3>
+        <img src="Screenshot 2025-01-05 160416.png" class="floatbox">
 
         <button class="btn">Click Me</button><br />
-        <a href="#">Your practise page</a>
+        <a href="#">Your pracse page</a><br><br><br>
+      </div>
 
         <div class="sections">
         <section>
@@ -92,10 +222,9 @@
             <p>Learn about the range of services designed to meet your needs.Welcome to our website! Explore the exciting features and services we offer</p>
         </section>
         <section>
-            <img src="data:image/jpeg;base64,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" height="65px" width="180px">
-            <h4 style="text-align: center;">Have questions? <h4>
+            <img src="Screenshot 2025-01-05 160347.png" height="85px" width="180px">
+            <h4 style="text-align: center; margin:0px;">Your Practise Page</h4>
         </section>
-       
 
             <section>
                 <h3>Home</h3>
@@ -115,7 +244,7 @@
             </section>
 
             <section class="mid"><button class="botton-btn">Home</button></section>
-            <section class="mid"><button class="botton-btn" style="background-color: green;">Service</button></section>
+            <section class="mid"><button class="botton-btn" id="bottom-btn">Service</button></section>
             <section class="mid"><button class="botton-btn">Contact</button></section>
             <section class="mid"><button class="botton-btn">Applications</button></section>
     </div>

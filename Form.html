@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+    <input id="box1" type="text" placeholder="enter username">
+    <input id="box2" type="text" placeholder="enter password">
+    <button id="btn" type="submit" onclick="check(event)">Submit</button>
+</form>
+    <p id="use"></p>
+    <p id="pass"></p>
+
+    <script>
+        function check(event){
+            event.preventDefault();
+
+            let a= document.getElementById("box1").value;
+            let b=document.getElementById("box2").value;
+            console.log("username= "+ a);
+            console.log("password= "+ b);
+
+            if (!a || !b) {
+                alert('Please fill in both username and password');
+                return;
+            }
+
+            document.getElementById("use").innerHTML="username= " + a;
+            document.getElementById("pass").innerHTML="password= " + b;
+           
+        }
+    </script>
+</body>
+</html>
