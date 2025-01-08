@@ -15,26 +15,6 @@ function greet(name, callback) {
   // Goodbye!
 
 
-// //Asyncrous callback
-//   function fetchData(callback) {
-//     console.log("Fetching data...");
-//     setTimeout(() => {
-//       const data = { id: 1, name: "John Doe" };
-//       callback(data);
-//     }, 2000);
-//   }
-  
-//   function displayData(data) {
-//     console.log("Data received:", data);
-//   }
-  
-//   fetchData(displayData);
-  
-//   // Output:
-//   // Fetching data...
-//   // Data received: { id: 1, name: 'John Doe' }
-
-
 //   //callback hell pyramid shape
 //   setTimeout(() => {
 //     console.log("Task 1");

@@ -1,7 +1,7 @@
 //second uncomment this 3 and remove 1 by 1 error
-console.log(a);
-d();
-e();
+// console.log(a,b,c);
+// d();
+// e();
 
 var a ='A';
 let b = 'B';
@@ -16,6 +16,6 @@ var e = function e(){
 }
 
 //fist uncomment this 3
-// console.log(a,b,c);
-// d();
-// e();
+console.log(a,b,c);
+d();
+e();

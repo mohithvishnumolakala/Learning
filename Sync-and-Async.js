@@ -25,7 +25,6 @@ function greet() {
 /*
 console.log("Start");
 
-
 setTimeout(() => {
   console.log("This runs after 2 seconds");
 }, 2000);
@@ -33,6 +32,10 @@ setTimeout(() => {
 setTimeout(()=>{
     console.log("This runs after 5 seconds");
 },5000);
+
+// setInterval(()=>{
+//   console.log("this will print the no.of delay time");
+//   },1000);
 
 console.log("End");
 
