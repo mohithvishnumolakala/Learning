@@ -10,7 +10,7 @@ namespace Learning.Console
     public class Patterns
     {
         public static void SquarePattern()
-        {   
+        {
             Console.WriteLine("enter sqare dimensions");
             int input = int.Parse(Console.ReadLine());
 
@@ -194,15 +194,51 @@ namespace Learning.Console
         public static void LeapYear()
         {
             Console.WriteLine("Enter Year");
-            int year=int.Parse(Console.ReadLine());
+            int year = int.Parse(Console.ReadLine());
             if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0)
             {
                 Console.WriteLine("This is Leap Year " + year);
             }
-            else { Console.WriteLine("This is Not Leap Year "+year); }
+            else { Console.WriteLine("This is Not Leap Year " + year); }
 
         }
+        public static void minmaxSum()
+        {
+            int[] arr = [1, 3, 2, 4, 3, 5];
+            Array.Sort(arr);
+
+            int totalSum = 0;
+            foreach (var num in arr)
+            {
+                totalSum += num;
+            }
+
+            int maxSum = totalSum - arr[0];
+            int minSum = totalSum - arr[arr.Length - 1];
+
+            Console.WriteLine($"Min Sum: {minSum}");
+            Console.WriteLine($"Max Sum: {maxSum}");
+        }
+        public static void missingNumber()
+        {
+            int[] arr = { 1, 2, 4, 5, 6 };
+            int n = 6; // The size of the sequence should be from 1 to 6
+            int totalSum = n * (n + 1) / 2;  //expected sum
+            int actualSum = 0;
+
+            foreach (int num in arr)
+            {
+                actualSum += num;
+            }
+
+            int missingNumber = totalSum - actualSum;
+            Console.WriteLine("Missing number is: " + missingNumber);
+        }
+
 
     }
+
+
 }
+
 

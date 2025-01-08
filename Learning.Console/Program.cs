@@ -17,9 +17,9 @@ internal class Program
         //obj.Search();
         //obj.OccuranceOfLetter();
         //obj.VowelsCount();
-        //Loops();
-       
-        
+        Loops();
+
+
     }
 
 
@@ -64,6 +64,8 @@ internal class Program
         //Patterns.RightTriangle();
         //Patterns.EqualTriangle();
         //Patterns.LeapYear();
+        //Patterns.minmaxSum();
+        Patterns.missingNumber();
 
         //DoWhileloop.DoWhileLoop();
         // DoWhileloop.DoWhile();
