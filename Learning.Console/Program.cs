@@ -65,7 +65,10 @@ internal class Program
         //Patterns.EqualTriangle();
         //Patterns.LeapYear();
         //Patterns.minmaxSum();
-        Patterns.missingNumber();
+        //Patterns.missingNumber();
+        //Patterns.GCD();
+        Patterns.GCD1();
+        //Patterns.amStrong();
 
         //DoWhileloop.DoWhileLoop();
         // DoWhileloop.DoWhile();

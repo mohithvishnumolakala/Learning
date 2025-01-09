@@ -235,6 +235,59 @@ namespace Learning.Console
             Console.WriteLine("Missing number is: " + missingNumber);
         }
 
+        public static void GCD()
+        {
+            Console.Write("Enter first number: ");
+            int a = int.Parse(Console.ReadLine());
+            Console.Write("Enter second number: ");
+            int b = int.Parse(Console.ReadLine());
+
+            while (a != b)
+            {
+                if (a < b)
+                {
+                    b -= a;
+
+                }
+                else
+                {
+                    a = a - b;
+                }
+            }
+            Console.WriteLine("GCD: " + a);
+        }
+        public static void amStrong()
+        {
+            Console.Write("Enter a number: ");
+            int num = int.Parse(Console.ReadLine());
+            int sum = 0;
+            int temp = num;
+
+            int digits = num.ToString().Length;
+
+            while (temp > 0)
+            {
+                int rem = temp % 10;
+                sum += (int)Math.Pow(rem, digits);
+                temp /= 10;
+            }
+
+            if (sum == num)
+                Console.WriteLine(num + " is an Armstrong number.");
+            else
+                Console.WriteLine(num + " is not an Armstrong number.");
+        }
+        public static void GCD1() 
+        {
+            Console.Write("Enter the first number: ");
+            int num1 = int.Parse(Console.ReadLine());
+            Console.Write("Enter the second number: ");
+            int num2 = int.Parse(Console.ReadLine());
+
+           int [] arr= new int[num1];
+           int [] array= new int[num2];
+
+
 
     }
 
