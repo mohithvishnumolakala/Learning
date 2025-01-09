@@ -1,254 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  </head>
-  <style>
-    .mid-div {
-      text-align: center;
-    }
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+<style>
+  [class*="col"]{
+    padding: 1rem;
+    background-color: aqua;
+    border:2px solid black; /* if we keep white as color it looks like seperate box */
+    color: white; 
+  }
+  .child{
+    background-color: red;
+  }
+</style>
 
-    body{
-      font-family: monospace;
-    }
+</head>
+<body>
+<div class="container border"><p>mohith</p></div>  
+<!--border is used to understand  -->
+<div class="container-fluid border"><p>mohith</p></div>
+<div class="cointainer-sm  border">geetha</div>
 
-    .container {
-      border: 2px solid black;
-      border-radius: 25px;
-      margin: 0px 230px;
-    }
 
-    .btn {
-      margin-top: 30px;
-      border-radius: 15px;
-      background-color: green;
-      color: white;
-      padding:5px 20px;
-      width: 140px;
-    }
+<div class="container border">
+  <div class="row">
+  <div class="col-lg-8 col-md-6" >suiandi</div>
+  <div class="col-lg-4 col-md-6">asdnaiosdn</div>
+  </div> 
+</div><br>
 
-    .mid-div a{
-      font-size: 125%;
-      padding-left: 30px;
-      text-decoration: none;
-    }
+<div class="container border">
+  <div class="row">
+    <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">col-1</div>
+    <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">col-2</div>
+    <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">col-3</div>
+    <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">col-4</div>
+    <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">col-5</div>
+    <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">col-6</div>
+    <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">col-7</div>
+    <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">col-8</div>
+    <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">col-9</div>
+    <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">col-10</div>
+    <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">col-11</div>
+    <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">col-12</div>
+  </div>
+</div><br>
 
-    .exit{
-      border-radius: 25px;
-      background-color: green;
-      color: white;
-      height: 40px;
-      width: 70px;
-      margin-top: 10px;
-    }
-
-    .botton-btn{
-      background-color:gray;
-      border-radius: 13px;
-      color:black;
-      align-items: center;
-      padding:5px 50px;
-      font-family: bolder;
-      font-size:medium;
-    }
-    
-    .sections {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        gap: 3px;
-        margin-top: 20px;
-    }
-    
-    section {
-        border-radius: 5px;
-        padding: 15px;
-        padding-top: 0px;
-        text-align: left;
-    }
-
-    .siders{
-      margin:0px;
-      font-size: 1.2em;
-      font-family: monospace;
-    }
-
-    .inline{
-      display: flex;
-      justify-content: space-between;
-      padding:5px 10px;
-    }
-    
-    section h3 {
-        font-size: 1.8em;
-        font-weight: bolder;
-        color: #000000;
-        margin-bottom: 3px;
-        margin-top: 0px;
-        text-align: center;
-    }
-    
-    section p {
-        font-size: 0.9em;
-        color: #000000;
-        margin-top: 1px;
-        margin-bottom: 0px;
-        font-family: 'Times New Roman', Times, serif;
-    }
-
-    .dots{
-      height:45px;
-      width: 85px;
-      padding-left: 15px;
-    }
-
-    .mid{
-      text-align: center;
-    }
-
-    #bar{
-      border-radius: 20px;
-      height:30px;
-      margin-top: 10px;
-    }
-    
-    .header{
-      display:flex;
-      gap:10px;
-      border-bottom: 2px solid black;
-    }
-
-    .header-left{
-      display: flex;
-      gap:35px;
-      margin-left:38%;
-    }
-
-    .mid-div h1{
-      margin: 0px;
-      font-size: 315%;
-    }
-
-    .mid-div h2{
-      margin: 0px;
-      font-size: 370%;
-      padding-left: 30px;
-    }
-
-    .mid-div h3{
-      font-size: 200%;
-      padding-left: 10px;
-      margin: 0px;
-    }
-
-    .mid-div h4{
-      font-size: 130%;
-      margin: 0px;
-      padding-left: 18px;
-    }
-
-    #last{
-      font-size: 180%;
-      padding-left: 30px;
-    }
-
-    #bottom-btn{
-      background-color: green;
-      color: #fafafa;
-    }
-
-    .floatbox{
-      display: flex;
-      position:absolute;
-      height: 120px;
-      width: 170px;
-      padding-left: 40px;
-    }
-
-    .cloud{
-      display: flex;
-      position:absolute;
-      height: 120px;
-      width: 170px;
-      padding-left: 10px;
-    }
-  </style>
-
-  <body>
-    <div class="inline">
-      <h2 class="siders">Your Your Practise Page</h2>
-      <h2 class="siders">Your Your Practise Page</h2>
+<div class="container-md" > 
+  <div class="row align-items-end" style="height: 300px;"> <!--change align-items-start and center-->
+    <div class="col-6">
+      One of three columns
     </div>
-
-    <div class="container-xxl">
-        <div class="header">
-          <img src="Screenshot 2025-01-05 155858.png" class="dots">
-          <input id="bar"  type="text" placeholder="search">
-          
-          <div class="header-left">
-            <h2>web</h2>
-            <h2>page</h2>
-            <button class="exit">exit</button>
-          </div>
-        </div>
-    
-
-      <div class="mid-div">
-        <h1>Welcome to My Practise Page</h1>
-        <img src="Screenshot 2025-01-05 175651.png" class="cloud">
-        <h2>Welcome This Page</h2><br>
-
-        <h3>Begining Practise web design</h3>
-        <h4>hloiushdunoiasdndcdczascascdascascascnsdc</h4>
-        <h3 id="last">begining terms and content</h3>
-        <img src="Screenshot 2025-01-05 160416.png" class="floatbox">
-
-        <button class="btn">Click Me</button><br />
-        <a href="#">Your pracse page</a><br><br><br>
-      </div>
-
-        <div class="sections">
-        <section>
-            <h3>Home</h3>
-            <p>Welcome to our website! Explore the exciting features and services.Welcome to our website! Explore the exciting features and services we offer</p>
-        </section>
-        <section>
-            <h3>About</h3>
-            <p>Discover who we are and what drives our passion for excellence.Welcome to our website! Explore the exciting features and services we offer</p>
-        </section>
-        <section>
-            <h3>Services</h3>
-            <p>Learn about the range of services designed to meet your needs.Welcome to our website! Explore the exciting features and services we offer</p>
-        </section>
-        <section>
-            <img src="Screenshot 2025-01-05 160347.png" height="85px" width="180px">
-            <h4 style="text-align: center; margin:0px;">Your Practise Page</h4>
-        </section>
-
-            <section>
-                <h3>Home</h3>
-                <p>Welcome to our website! Explore the exciting features and services.Welcome to our website! Explore the exciting features and services we offer</p>
-            </section>
-            <section>
-                <h3>About</h3>
-                <p>Discover who we are and what drives our passion for excellence.Welcome to our website! Explore the exciting features and services we offer</p>
-            </section>
-            <section>
-                <h3>Services</h3>
-                <p>Learn about the range of services designed to meet your needs.Welcome to our website! Explore the exciting features and services we offer</p>
-            </section>
-            <section>
-                <h3>Contact</h3>
-                <p>Have questions? Feel free to reach out and connect with us today!Welcome to our website! Explore the exciting features and services we offer</p>
-            </section>
-
-            <section class="mid"><button class="botton-btn">Home</button></section>
-            <section class="mid"><button class="botton-btn" id="bottom-btn">Service</button></section>
-            <section class="mid"><button class="botton-btn">Contact</button></section>
-            <section class="mid"><button class="botton-btn">Applications</button></section>
+    <div class="col">
+      One of three columns
     </div>
-  </body>
+    <div class="col">
+      One of three columns
+    </div>
+  </div>
+</div><br>
+
+<div class="container border" > 
+  <div class="row gx-1 gy-1">  <!--change gx and gy  amd also g vlues x refers x axis and y refers y axis its workins as 5-1 scaling padding-->
+    <div class="col-6" ><div class="child">col-1</div></div>
+    <div class="col-6" ><div class="child">col-1</div></div>
+</div></div><br>
+
+<div class="container border">
+  <button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-secondary">Secondary</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-light">Light</button>
+<button type="button" class="btn btn-dark">Dark</button>
+
+<button type="button" class="btn btn-link">Link</button>
+
+<button type="button" class="btn btn-outline-danger">Danger</button> <!--outline of tht button-->
+<button type="button" class="btn btn-outline-warning">Warning</button>
+
+<button type="button" class="btn btn-light btn-lg">Light</button> <!--large button-->
+<button type="button" class="btn btn-dark btn-sm">Dark</button> <!--small button-->
+
+<button type="button" class="btn btn-light " disabled>Light</button> <!--disabled button-->
+
+<div class="d-grid gap-2">  <!-- display grid type and gap-->
+  <button class="btn btn-primary" type="button">Button</button>
+  <button class="btn btn-primary" type="button">Button</button>
+</div>
+</div><br>
+
+
+<div class="container border">
+ <div><img src="Screenshot 2025-01-05 160347.png" alt="computter" class="img-fluid">
+  <img src="Screenshot 2025-01-05 160347.png" alt="computter" class="img-thumbnail"> 
+</div><!--border inside a image-->
+
+  <img src="Screenshot 2025-01-05 160347.png" class="rounded float-start" alt="...">
+<img src="Screenshot 2025-01-05 160347.png" class="rounded float-end" alt="...">
+</div><br>
+
+<div class="mb-3 p-2" style="width: 200px;">
+  Centered element <!--m is for margin p is for padding-->
+</div>
+
+<div class="d-inline p-2 text-bg-primary">d-inline</div>
+<div class="d-inline p-2 text-bg-dark">d-inline</div>
+  
+
+  <script src="js/bootstrap.js"></script>
+</body>
 </html>

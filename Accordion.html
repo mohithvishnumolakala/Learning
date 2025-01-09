@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="row">
+        <div>
+            <p>Mohith <button onclick="menu(1)">V</button></p>
+            <p id="matter1" style="display:none;">This is the matter related to Mohith.</p>
+        </div>
+        <div>
+            <p>Geetha <button onclick="menu(2)">V</button></p>
+            <p id="matter2" style="display:none;">This is the matter related to Geetha.</p>
+        </div>
+        <div>
+            <p>Bobby <button onclick="menu(3)">V</button></p>
+            <p id="matter3" style="display:none;">This is the matter related to Bobby.</p>
+        </div>
+    </div>
+
+    <script>
+        function menu(id) {
+            //hide all matters
+            document.getElementById("matter1").style.display = "none";
+            document.getElementById("matter2").style.display = "none";
+            document.getElementById("matter3").style.display = "none";
+            //to display that particular matter
+            document.getElementById("matter" + id).style.display = "block";
+        }
+    </script>
+</body>
+</html>
