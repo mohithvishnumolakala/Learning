@@ -1,11 +1,11 @@
 // Creating a Promise
-const myPromise = new Promise((a, b) => {
+const myPromise = new Promise((ab, bc) => {
   let success = true; // Change to false to see rejection
 
   if (success) {
-    a("The operation was successful!");
+    ab("The operation was successful!");
   } else {
-    b("The operation failed.");
+    bc("The operation failed.");
   }
 });
 

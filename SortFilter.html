@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="textarea" type="text" placeholder="Enter input">
+    <button id="btn" onclick="order()">Submit</button>
+    <input id="filterText" type="text" placeholder="Filter by keyword">
+    <button onclick="filterItems()">Filter</button>
+    <button onclick="sortItems()">Sort</button>
+    <p id="matter">Matter</p>
+    
+    <script>
+        let arr = [];
+        
+        function order(){
+            let inputText = document.getElementById("textarea").value;
+            arr.push(inputText);
+            displayItems();
+        }
+
+        function remove(val){
+            arr.splice(val, 1);
+            displayItems();
+        }
+
+        function displayItems(){
+            let text = '';
+            for (let i = 0; i < arr.length; i++) {
+                text += (i + 1) + ". " + arr[i] + ` <button onclick="remove(${i})">Remove</button><br>`;
+            }
+            document.getElementById("matter").innerHTML = text;
+        }
+
+        function sortItems(){
+            arr.sort();
+            displayItems();
+        }
+
+        function filterItems(){
+            let SearchTerm = document.getElementById("filterText").value;
+           let text='';
+           for (let i=0;i<arr.length;i++){
+            if(arr[i].toLowerCase().includes(SearchTerm.toLowerCase()))
+             arr=[arr[i]]
+            
+           }
+           displayItems
+        }
+    </script>
+</body>
+</html>
