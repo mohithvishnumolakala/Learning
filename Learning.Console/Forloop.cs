@@ -14,8 +14,6 @@ public class Forloop
             Console.Write(i + " ");
         }
     }
-    
-    
     public void Print10to1()
     {
         Console.WriteLine("10-1");

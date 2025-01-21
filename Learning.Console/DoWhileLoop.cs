@@ -1,7 +1,6 @@
 ﻿
 public class DoWhileloop
 {
-
     public static void DoWhileLoop()
     {
         int i = 1;

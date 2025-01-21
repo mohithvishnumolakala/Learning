@@ -3,7 +3,6 @@ using Learning.Console.Arrays;
 using Learning.Console.OOPS;
 using Learning.Console.Strings;
 
-
 internal class Program
 {
     private static void Main(string[] args)
@@ -11,18 +10,13 @@ internal class Program
         //ArraysIntro obj = new ArraysIntro();
         //Strings obj = new Strings();
         //obj.Example();
-        //obj.Example();
         //obj.SumOfElements();
         //obj.CountOccur();
         //obj.Search();
         //obj.OccuranceOfLetter();
         //obj.VowelsCount();
         Loops();
-
-
     }
-
-
 
     static void Loops()
     {
@@ -51,24 +45,19 @@ internal class Program
         //Wobj.ReverseNum();
 
 
-        //Patterns.SquarePattern();
-        //Patterns.RectanglePattern();
-        //Patterns.LeftTriangle();
-        //Patterns.num1();
-        //Patterns.num2();
-        //Patterns.num3();
-        //Patterns.num4();
-        //Patterns.num5();
-        //Patterns.num6();
-        //Patterns.num7();
-        //Patterns.RightTriangle();
-        //Patterns.EqualTriangle();
-        //Patterns.LeapYear();
-        //Patterns.minmaxSum();
-        //Patterns.missingNumber();
-        //Patterns.GCD();
-        Patterns.GCD1();
-        //Patterns.amStrong();
+        Patterns.SquarePattern();
+        Patterns.RectanglePattern();
+        Patterns.LeftTriangle();
+        Patterns.RightTriangle();
+        Patterns.EqualTriangle();
+        Patterns.num1();
+        Patterns.num2();
+        Patterns.num3();
+        Patterns.num4();
+        Patterns.num5();
+        Patterns.num6();
+      
+
 
         //DoWhileloop.DoWhileLoop();
         // DoWhileloop.DoWhile();

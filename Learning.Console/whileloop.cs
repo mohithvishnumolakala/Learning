@@ -104,8 +104,6 @@ public class Whileloop
         }
 
     }
-
-
     public void SumofDigits()
     {
         int num = 1452;

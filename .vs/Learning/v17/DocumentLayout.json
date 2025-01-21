@@ -3,36 +3,20 @@
   "WorkspaceRootPath": "D:\\C-Sharp Practise\\Learning_V1\\Learning\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{50258482-C8BA-4543-BB1A-8B688760ABAC}|Learning.Console\\Learning.Console.csproj|d:\\c-sharp practise\\learning_v1\\learning\\learning.console\\arrays\\arraysintro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50258482-C8BA-4543-BB1A-8B688760ABAC}|Learning.Console\\Learning.Console.csproj|solutionrelative:learning.console\\arrays\\arraysintro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{50258482-C8BA-4543-BB1A-8B688760ABAC}|Learning.Console\\Learning.Console.csproj|d:\\c-sharp practise\\learning_v1\\learning\\learning.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50258482-C8BA-4543-BB1A-8B688760ABAC}|Learning.Console\\Learning.Console.csproj|solutionrelative:learning.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50258482-C8BA-4543-BB1A-8B688760ABAC}|Learning.Console\\Learning.Console.csproj|d:\\c-sharp practise\\learning_v1\\learning\\learning.console\\strings\\strings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50258482-C8BA-4543-BB1A-8B688760ABAC}|Learning.Console\\Learning.Console.csproj|solutionrelative:learning.console\\strings\\strings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\C-Sharp Practise\\Learning_V1\\Learning\\Additional.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Additional.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{50258482-C8BA-4543-BB1A-8B688760ABAC}|Learning.Console\\Learning.Console.csproj|d:\\c-sharp practise\\learning_v1\\learning\\learning.console\\patterns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50258482-C8BA-4543-BB1A-8B688760ABAC}|Learning.Console\\Learning.Console.csproj|solutionrelative:learning.console\\patterns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50258482-C8BA-4543-BB1A-8B688760ABAC}|Learning.Console\\Learning.Console.csproj|d:\\c-sharp practise\\learning_v1\\learning\\learning.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50258482-C8BA-4543-BB1A-8B688760ABAC}|Learning.Console\\Learning.Console.csproj|solutionrelative:learning.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{50258482-C8BA-4543-BB1A-8B688760ABAC}|Learning.Console\\Learning.Console.csproj|d:\\c-sharp practise\\learning_v1\\learning\\learning.console\\forloop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50258482-C8BA-4543-BB1A-8B688760ABAC}|Learning.Console\\Learning.Console.csproj|solutionrelative:learning.console\\forloop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50258482-C8BA-4543-BB1A-8B688760ABAC}|Learning.Console\\Learning.Console.csproj|d:\\c-sharp practise\\learning_v1\\learning\\learning.console\\oops\\classes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50258482-C8BA-4543-BB1A-8B688760ABAC}|Learning.Console\\Learning.Console.csproj|solutionrelative:learning.console\\oops\\classes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50258482-C8BA-4543-BB1A-8B688760ABAC}|Learning.Console\\Learning.Console.csproj|d:\\c-sharp practise\\learning_v1\\learning\\learning.console\\whileloop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50258482-C8BA-4543-BB1A-8B688760ABAC}|Learning.Console\\Learning.Console.csproj|solutionrelative:learning.console\\whileloop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50258482-C8BA-4543-BB1A-8B688760ABAC}|Learning.Console\\Learning.Console.csproj|d:\\c-sharp practise\\learning_v1\\learning\\learning.console\\oops\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50258482-C8BA-4543-BB1A-8B688760ABAC}|Learning.Console\\Learning.Console.csproj|solutionrelative:learning.console\\oops\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,56 +26,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ArraysIntro.cs",
-              "DocumentMoniker": "D:\\C-Sharp Practise\\Learning_V1\\Learning\\Learning.Console\\Arrays\\ArraysIntro.cs",
-              "RelativeDocumentMoniker": "Learning.Console\\Arrays\\ArraysIntro.cs",
-              "ToolTip": "D:\\C-Sharp Practise\\Learning_V1\\Learning\\Learning.Console\\Arrays\\ArraysIntro.cs",
-              "RelativeToolTip": "Learning.Console\\Arrays\\ArraysIntro.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAA0wEcAAAAaAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Additional.cs",
+              "DocumentMoniker": "D:\\C-Sharp Practise\\Learning_V1\\Learning\\Additional.cs",
+              "RelativeDocumentMoniker": "Additional.cs",
+              "ToolTip": "D:\\C-Sharp Practise\\Learning_V1\\Learning\\Additional.cs",
+              "RelativeToolTip": "Additional.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T17:04:38.755Z",
+              "WhenOpened": "2025-01-21T13:58:49.146Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "whileloop.cs",
-              "DocumentMoniker": "D:\\C-Sharp Practise\\Learning_V1\\Learning\\Learning.Console\\whileloop.cs",
-              "RelativeDocumentMoniker": "Learning.Console\\whileloop.cs",
-              "ToolTip": "D:\\C-Sharp Practise\\Learning_V1\\Learning\\Learning.Console\\whileloop.cs",
-              "RelativeToolTip": "Learning.Console\\whileloop.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAwwCEAAAAXAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Forloop.cs",
+              "DocumentMoniker": "D:\\C-Sharp Practise\\Learning_V1\\Learning\\Learning.Console\\Forloop.cs",
+              "RelativeDocumentMoniker": "Learning.Console\\Forloop.cs",
+              "ToolTip": "D:\\C-Sharp Practise\\Learning_V1\\Learning\\Learning.Console\\Forloop.cs",
+              "RelativeToolTip": "Learning.Console\\Forloop.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T09:38:56.463Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Classes.cs",
-              "DocumentMoniker": "D:\\C-Sharp Practise\\Learning_V1\\Learning\\Learning.Console\\OOPS\\Classes.cs",
-              "RelativeDocumentMoniker": "Learning.Console\\OOPS\\Classes.cs",
-              "ToolTip": "D:\\C-Sharp Practise\\Learning_V1\\Learning\\Learning.Console\\OOPS\\Classes.cs",
-              "RelativeToolTip": "Learning.Console\\OOPS\\Classes.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T13:37:30.307Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Animal.cs",
-              "DocumentMoniker": "D:\\C-Sharp Practise\\Learning_V1\\Learning\\Learning.Console\\OOPS\\Animal.cs",
-              "RelativeDocumentMoniker": "Learning.Console\\OOPS\\Animal.cs",
-              "ToolTip": "D:\\C-Sharp Practise\\Learning_V1\\Learning\\Learning.Console\\OOPS\\Animal.cs",
-              "RelativeToolTip": "Learning.Console\\OOPS\\Animal.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAUwAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T13:37:30.167Z"
+              "WhenOpened": "2025-01-21T10:30:07.401Z"
             },
             {
               "$type": "Document",
@@ -101,45 +61,23 @@
               "RelativeDocumentMoniker": "Learning.Console\\Patterns.cs",
               "ToolTip": "D:\\C-Sharp Practise\\Learning_V1\\Learning\\Learning.Console\\Patterns.cs",
               "RelativeToolTip": "Learning.Console\\Patterns.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAqwB8BAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAwwBQAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T08:58:31.21Z"
+              "WhenOpened": "2025-01-05T08:58:31.21Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Strings.cs",
-              "DocumentMoniker": "D:\\C-Sharp Practise\\Learning_V1\\Learning\\Learning.Console\\Strings\\Strings.cs",
-              "RelativeDocumentMoniker": "Learning.Console\\Strings\\Strings.cs",
-              "ToolTip": "D:\\C-Sharp Practise\\Learning_V1\\Learning\\Learning.Console\\Strings\\Strings.cs",
-              "RelativeToolTip": "Learning.Console\\Strings\\Strings.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAowCAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T05:59:50.249Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Forloop.cs",
-              "DocumentMoniker": "D:\\C-Sharp Practise\\Learning_V1\\Learning\\Learning.Console\\Forloop.cs",
-              "RelativeDocumentMoniker": "Learning.Console\\Forloop.cs",
-              "ToolTip": "D:\\C-Sharp Practise\\Learning_V1\\Learning\\Learning.Console\\Forloop.cs",
-              "RelativeToolTip": "Learning.Console\\Forloop.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGUAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T05:46:22.481Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\C-Sharp Practise\\Learning_V1\\Learning\\Learning.Console\\Program.cs",
               "RelativeDocumentMoniker": "Learning.Console\\Program.cs",
               "ToolTip": "D:\\C-Sharp Practise\\Learning_V1\\Learning\\Learning.Console\\Program.cs",
               "RelativeToolTip": "Learning.Console\\Program.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAAAEUAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowDoAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T03:10:35.072Z"
+              "WhenOpened": "2024-12-21T03:10:35.072Z",
+              "EditorCaption": ""
             }
           ]
         }
