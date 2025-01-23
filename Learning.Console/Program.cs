@@ -16,7 +16,15 @@ internal class Program
         //obj.Search();
         //obj.OccuranceOfLetter();
         //obj.VowelsCount();
-        Loops();
+        //Loops();
+        Additional obj = new Additional();
+        //obj.LeapYear();
+        //obj.minmaxSum();
+        //obj.missingNumber();
+        //obj.GCD();
+        //obj.amStrong();
+        //obj.sortFilter();
+        obj.WithoutClass();
     }
 
     static void Loops()
@@ -50,14 +58,14 @@ internal class Program
         //Patterns.RectanglePattern();
         //Patterns.LeftTriangle();
         //Patterns.RightTriangle();
-        Patterns.EqualTriangle();
+        //Patterns.EqualTriangle();
         //Patterns.num1();
         //Patterns.num2();
         //Patterns.num3();
         //Patterns.num4();
         //Patterns.num5();
         //Patterns.num6();
-      
+             
 
 
         //DoWhileloop.DoWhileLoop();

@@ -124,28 +124,4 @@ public class Additional
         }
 
     }
-    public void WithoutClass()
-    {
-        Console.WriteLine("Details of Mohith:");
-        string firstName = "mohith";
-        string lastName = "vishnumolakala";
-        int age = 19;
-        int salary = 15000;
-        Console.WriteLine($"firstname:{firstName}");
-        Console.WriteLine($"lastname:{lastName}");
-        Console.WriteLine($"age:{age}");
-        Console.WriteLine($"salary:{salary}");
-
-        Console.WriteLine();
-
-        Console.WriteLine("Details of geetha:");
-        string firstName1 = "geetha";
-        string lastName1 = "gopalam";
-        int age1 = 18;
-        int salary1 = 20000;
-        Console.WriteLine($"firstname:{firstName1}");
-        Console.WriteLine($"lastname:{lastName1}");
-        Console.WriteLine($"age:{age1}");
-        Console.WriteLine($"salary:{salary1}");
-    }
 }
