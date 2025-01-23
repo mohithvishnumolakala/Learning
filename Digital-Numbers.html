@@ -11,19 +11,19 @@
         <button onclick="toggle()">Submit</button>
     </div>
 
-    <div id="matter1" style="display: none;">--</div>
+    <div id="matter1" style="display: none;">__</div>
     <div class="d-flex" style="display:flex">
-        <div id="matter5" style="display: none;">|</div>
-        <div id="">&nbsp; &nbsp;</div>
         <div id="matter4" style="display: none;">|</div>
-    </div>
-    <div id="matter3" style="display: none;">-</div>
-    <div class="d-flex" style="display:flex">
-        <div id="matter2" style="display: none;">|</div>
         <div id="">&nbsp; &nbsp;</div>
-        <div id="matter7" style="display: none;">|</div>
+        <div id="matter2" style="display: none;">|</div>
     </div>
-    <div id="matter6" style="display: none;">--</div>
+    <div id="matter3" style="display: none;">__</div>
+    <div class="d-flex" style="display:flex">
+        <div id="matter7" style="display: none;">|</div>
+        <div id="">&nbsp; &nbsp;</div>
+        <div id="matter5" style="display: none;">|</div>
+    </div>
+    <div id="matter6" style="display: none;">__</div>
 
     <script>
         function toggle() {
@@ -37,6 +37,11 @@
             document.getElementById("matter7").style.display = "none";
 
             let num = document.getElementById("num").value;
+            
+            if (num == "") {
+                alert("Please enter a number");
+                return;  
+            }
 
             if (num == 1) {
                 document.getElementById("matter2").style.display = "block";
@@ -66,7 +71,6 @@
                 document.getElementById("matter6").style.display = "block";
             } else if (num == 6) {
                 document.getElementById("matter1").style.display = "block";
-                document.getElementById("matter2").style.display = "block";
                 document.getElementById("matter3").style.display = "block";
                 document.getElementById("matter4").style.display = "block";
                 document.getElementById("matter5").style.display = "block";
@@ -99,8 +103,6 @@
                 document.getElementById("matter5").style.display = "block";
                 document.getElementById("matter6").style.display = "block";
                 document.getElementById("matter7").style.display = "block";
-            } else {
-                alert("Please enter a number between 1 and 9.");
             }
         }
     </script>
