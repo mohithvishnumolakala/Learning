@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital 7-Segment Display</title>
+    <style>
+        .segment {
+            color: red;
+            font-family: monospace;
+            font-size: 2em;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <input id="num" type="number" placeholder="Enter a number (0-9)" min="0" max="9" style="width: 10%";>
+        <button onclick="toggle()">Submit</button>
+    </div>
+    <div class="segment">
+        <pre id="segmentDisplay">
+         
+        </pre>
+    </div>
+    <script>
+        
+        function toggle() {
+            const segments = {
+                0: [" __ ", "|  |", "|__|"],
+                1: ["   ", "   |", "   |"],
+                2: [" __ ", " __|", "|__ "],
+                3: [" __ ", " __|", " __|"],
+                4: ["    ", "|__|", "   |"],
+                5: [" __ ", "|__ ", " __|"],
+                6: [" __ ", "|__ ", "|__|"],
+                7: [" __ ", "   |", "   |"],
+                8: [" __ ", "|__|", "|__|"],
+                9: [" __ ", "|__|", " __|"]
+            };
+            const numInput = document.getElementById("num").value;
+            const segmentDisplay = document.getElementById("segmentDisplay");
+            if (numInput == "") {
+                alert("Please enter a number");
+                return;  
+            }
+            const num = parseInt(numInput);
+            segmentDisplay.textContent = segments[num][0] + "\n" + segments[num][1] + "\n" + segments[num][2];
+
+            //segmentDisplay.innerHTML = segments[num][0] + "<br>" + segments[num][1] + "<br>" + segments[num][2];
+
+        }
+    
+    </script>
+</body>
+</html>

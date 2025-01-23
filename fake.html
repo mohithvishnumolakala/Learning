@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <input id="box" type="text" placeholder="enter items">
+        <button id="btn" type="submit" onclick="dis()">Submit</button>
+        <p id="show"></p>
+    </div>
+    <script>
+        function same(){
+        let text='';
+            for(let i=0;i<todos.length;i++){
+               text = text + todos[i]+` <button onclick="remove(${i})">remove</button><br>`;
+            }
+            document.getElementById("show").innerHTML=text;
+        }
+
+        todos=[];
+        function dis(){
+         let matter = document.getElementById("box").value;
+         todos.push(matter);
+        same();
+         
+        }
+        function remove(index){
+            todos.splice(index, 1);  
+            same();
+
+        }
+
+    </script>
+</body>
+</html>
