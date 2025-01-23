@@ -84,15 +84,15 @@ namespace Learning.Console
                 {
                     for (int j = 1; j <= rows - i; j++)
                     {
-                        Console.Write("_");
+                        Console.Write(" ");
                     }
-                    for (int k = 1; k <= 2 * i - 1; k++)
+                    for (int k = 1; k <=i; k++)
                     {
                         Console.Write("*");
                     }
-                    for (int j = 1; j <= rows - i; j++)
+                    for (int j = 1; j <=i-1; j++)
                     {
-                        Console.Write("_");
+                        Console.Write("*");
                     }
                     Console.WriteLine();
                 }

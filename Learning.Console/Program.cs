@@ -8,6 +8,7 @@ internal class Program
     private static void Main(string[] args)
     {
         //ArraysIntro obj = new ArraysIntro();
+        //obj.MaxElement();
         //Strings obj = new Strings();
         //obj.Example();
         //obj.SumOfElements();
@@ -45,17 +46,17 @@ internal class Program
         //Wobj.ReverseNum();
 
 
-        Patterns.SquarePattern();
-        Patterns.RectanglePattern();
-        Patterns.LeftTriangle();
-        Patterns.RightTriangle();
+        //Patterns.SquarePattern();
+        //Patterns.RectanglePattern();
+        //Patterns.LeftTriangle();
+        //Patterns.RightTriangle();
         Patterns.EqualTriangle();
-        Patterns.num1();
-        Patterns.num2();
-        Patterns.num3();
-        Patterns.num4();
-        Patterns.num5();
-        Patterns.num6();
+        //Patterns.num1();
+        //Patterns.num2();
+        //Patterns.num3();
+        //Patterns.num4();
+        //Patterns.num5();
+        //Patterns.num6();
       
 
 

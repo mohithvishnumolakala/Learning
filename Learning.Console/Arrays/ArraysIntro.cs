@@ -24,7 +24,6 @@ namespace Learning.Console.Arrays
                 Console.WriteLine(array[i]);
             }
         }
-
         public void Example1()
         {
             string s = Console.ReadLine();
@@ -39,7 +38,7 @@ namespace Learning.Console.Arrays
         public void MaxElement()
         {
             int[] array = [1, 12, 3, 5, 2, 1];
-            int largest = array[0];
+            int largest = array[0]; 
             int largestIndex = 0;
             for (int i = 0; i < array.Length; i++)
             {
@@ -48,10 +47,8 @@ namespace Learning.Console.Arrays
                     largest = array[i];
                     largestIndex = i;
                 }
-
             }
             Console.WriteLine(largestIndex);
-
         }
         public void SumOfElements()
         {
@@ -97,8 +94,7 @@ namespace Learning.Console.Arrays
                 Console.WriteLine($" {num} is not found");
             }
         }
-
-
+       
 
     }
 }

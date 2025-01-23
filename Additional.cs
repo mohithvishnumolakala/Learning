@@ -41,7 +41,10 @@ public class Additional
         {
             actualSum += num;
         }
-
+        //for (int i = 0; i < arr.Length; i++)
+        //{
+        //    actualsum += arr[i];
+        //}   this is as also the same meaning
         int missingNumber = totalSum - actualSum;
         Console.WriteLine("Missing number is: " + missingNumber);
     }
@@ -77,9 +80,9 @@ public class Additional
 
         while (temp > 0)
         {
-            int rem = temp % 10;
+            int rem = temp % 10; 
             sum += (int)Math.Pow(rem, digits);
-            temp /= 10;
+            temp /= 10; 
         }
 
         if (sum == num)
@@ -87,24 +90,11 @@ public class Additional
         else
             Console.WriteLine(num + " is not an Armstrong number.");
     }
-    public void GCD1()
-    {
-        Console.Write("Enter the first number: ");
-        int num1 = int.Parse(Console.ReadLine());
-        Console.Write("Enter the second number: ");
-        int num2 = int.Parse(Console.ReadLine());
-
-        int[] arr = new int[num1];
-        int[] array = new int[num2];
-
-
-
-    }
     public void sortFilter()
     {
         Console.WriteLine("Enter the number of names:");
         int count = int.Parse(Console.ReadLine());
-
+        
         List<string> names = new List<string>();
 
         Console.WriteLine("Enter the names:");
@@ -132,7 +122,6 @@ public class Additional
         {
             Console.WriteLine(name);
         }
+
     }
-
-
 }
