@@ -23,8 +23,8 @@ internal class Program
         //obj.missingNumber();
         //obj.GCD();
         //obj.amStrong();
-        //obj.sortFilter();
-        obj.WithoutClass();
+        obj.sortFilter();
+        //obj.WithoutClass();
     }
 
     static void Loops()

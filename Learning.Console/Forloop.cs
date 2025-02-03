@@ -90,24 +90,25 @@ public class Forloop
     }
     public void PrimeNumber()
     {
-        for (int num = 2; num <= 20; num++)
+        for (int num = 1; num <= 20; num++)
         {
-            bool isPrime = false;
-            for (int i = 2; i < num; i++)
+            int count = 0;
+            for (int i = 1; i <= num; i++)
             {
                 if (num % i == 0)
                 {
-                    isPrime = true;
+                    count++;
                 }
             }
-            if (isPrime)
+            if (count == 2)
             {
-                Console.WriteLine("prime" + num);
+                Console.WriteLine($"{num} is prime");
             }
             else
             {
-                Console.WriteLine("Not" + num);
+                Console.WriteLine($"{num} is not aprime");
             }
         }
     }
+
 }

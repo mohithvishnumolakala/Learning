@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Xml.Linq;
 
 public class Additional
 {
@@ -92,36 +93,53 @@ public class Additional
     }
     public void sortFilter()
     {
-        Console.WriteLine("Enter the number of names:");
-        int count = int.Parse(Console.ReadLine());
-        
-        List<string> names = new List<string>();
-
-        Console.WriteLine("Enter the names:");
-        for (int i = 1; i <= count; i++)
+        Console.WriteLine("enter number of names:");
+        int num = int.Parse(Console.ReadLine());
+        List<string> names=new List<string>();
+        for (int i = 1; i <= num; i++)
         {
-            Console.Write($"Name {i}: ");
-            names.Add(Console.ReadLine());
+            Console.WriteLine("enter name");
+            names.Add( Console.ReadLine());  
         }
-
         names.Sort();
-
-        Console.WriteLine("\nSorted names in ascending order:");
-        foreach (var name in names)
+        foreach(string name in names)
         {
             Console.WriteLine(name);
         }
-
-        Console.WriteLine("\nEnter a keyword to filter names:");
-        string keyword = Console.ReadLine();
-
-        var filteredNames = names.Where(n => n.Contains(keyword, StringComparison.OrdinalIgnoreCase));
-
-        Console.WriteLine($"\nFiltered names containing '{keyword}':");
-        foreach (var name in filteredNames)
+        Console.WriteLine("enter key:");
+        string key = Console.ReadLine();
+        for (int i = 1; i < names.Count; i++)
         {
-            Console.WriteLine(name);
+            if (names[i].Contains(key))
+            {
+                Console.WriteLine($"the key found {key}");
+            }
+            
         }
 
+    }
+    public void WithoutClass()
+    {
+        Console.WriteLine("Details of Mohith:");
+        string firstName = "mohith";
+        string lastName = "vishnumolakala";
+        int age = 19;
+        int salary = 15000;
+        Console.WriteLine($"firstname:{firstName}");
+        Console.WriteLine($"lastname:{lastName}");
+        Console.WriteLine($"age:{age}");
+        Console.WriteLine($"salary:{salary}");
+
+        Console.WriteLine();
+
+        Console.WriteLine("Details of geetha:");
+        string firstName1 = "geetha";
+        string lastName1 = "gopalam";
+        int age1 = 18;
+        int salary1 = 20000;
+        Console.WriteLine($"firstname:{firstName1}");
+        Console.WriteLine($"lastname:{lastName1}");
+        Console.WriteLine($"age:{age1}");
+        Console.WriteLine($"salary:{salary1}");
     }
 }
