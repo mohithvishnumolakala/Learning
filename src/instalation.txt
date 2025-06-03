@@ -1,0 +1,5 @@
+step-1: open chrome and search for react docs and go to the website ang go to create new react app
+step-2: create folder and open cmd prompt in that folder
+step-3: search node in google and dowload it and check the version in cmd prompt(node --version)
+step-4: open cmd prompt and cd to projectname
+step-5: to run it cmd(npm start)

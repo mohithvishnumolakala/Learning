@@ -1,0 +1,6 @@
+what is React and why?
+-> it is an open-source javascript library developed by python
+-> used to build user-interfaces for web applications
+-> user virtual dom (develop the single page application like when we apply changes in a components it cant load whole project it loads only that updated part or components)
+-> component based
+-> we have to use captial letter while creating a file in react
