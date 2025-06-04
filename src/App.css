@@ -1,7 +1,23 @@
-.container{
-  color: purple;
+.formSection{
+  background-color: black;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
 }
 
-.para{
-  border: 1px solid red
+.inputDiv input{
+  width:15rem;
+  height:2rem;
+}
+
+.submitbtn{
+  padding:5px 103px;
+  border-radius: 5px;
+  margin-top:5px;
+  background-color: blueviolet;
+}
+.formSection h2{
+  color:azure
 }

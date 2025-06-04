@@ -15,4 +15,4 @@ const StateMgm=()=>{
         <div>StateMgm</div>
     )
 }
-export default StateMgm;
+export default StateMgm
