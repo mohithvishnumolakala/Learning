@@ -1,0 +1,3 @@
+we have DOM in Javascript but we have virtual DOM in ReactJs
+DOM means Documnet Object Model
+in react the virtual Dom first check the modification and allow into Actual DOM
